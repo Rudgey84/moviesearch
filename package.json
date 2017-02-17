@@ -1,0 +1,20 @@
+{
+  "name": "movies",
+  "version": "1.0.1",
+  "author": "Tom Rudge <tom@rudge.email> (http://tomrudge.com)",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "node-sass": "^4.5.0",
+    "node-static": "^0.7.4"
+  },
+  "scripts": {
+    "start": "node server.js | grunt"
+  },
+  "dependencies": {
+    "grunt-sass": "^2.0.0"
+  }
+}

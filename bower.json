@@ -1,0 +1,14 @@
+{
+  "name": "movies",
+  "version": "1.0.1",
+  "authors": [
+    "Tom Rudge <tom@rudge.email> (http://tomrudge.com)"
+  ],
+  "dependencies": {
+    "angular": "~1.2.23",
+    "angular-route": "~1.2.23",
+	"bootstrap-sass": "~3.3.6",
+	"grunt": "~0.4.5",
+	"node-sass": "0.9.3"
+  }
+}

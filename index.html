@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="OmdbSearch" lang="en-GB">
+	<head>
+		<meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Search Movies & TV shows</title>
+        <meta name="description" content="Search Movies & TV shows database">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="/bower_components/angular/angular.js"></script>
+		<script src="/bower_components/angular-route/angular-route.js"></script>
+		<link rel="stylesheet" type="text/css" href="app.css" />
+		<script src="/app.js"></script>
+	</head>
+<body class="{{bodylayout}}">
+<nav class="navbar navbar-default">
+<div class="container">
+	<div class="navbar-header">
+		<h1><a class="navbar-brand" href="/">
+		Search Movies & TV shows </a></h1>
+	</div>
+	<div class=" pull-right">
+		<ul class="list-inline">
+			<li><a href="mailto:tom@rudge.email"><i class="glyphicon glyphicon-envelope"></i></a></li>
+			<li><a href="tel:447866326818"><i class="glyphicon glyphicon-phone"></i></a></li>
+		</ul>
+	</div>
+</div>
+</nav>
+<div ng-view></div>
+<footer class="footer {{footerFix}}">
+<div class="container">
+	<div class="copyright">
+		Demo built by <a href="http://tomrudge.com">Tom Rudge</a> using <a href="https://angularjs.org/">AngularJS</a> | Results provided by the <a href="http://www.omdbapi.com/">Open Movie Database API</a> | &copy; {{date | date:'yyyy'}}
+	</div>
+</div>
+</footer>
+</body>
+</html>
