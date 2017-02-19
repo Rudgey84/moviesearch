@@ -14,5 +14,5 @@ Set-up
 Usage
 -----
 
-1.	Run `npm start` from the project root, this will compile your saa and create your css file
+1.	Run `npm start` from the project root, this will compile your sass and create your css file
 2.	Visit http://localhost:8080/ in a browser to use the search
